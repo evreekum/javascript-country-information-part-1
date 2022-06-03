@@ -60,7 +60,7 @@ ul {
 .body__outer-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -72,26 +72,47 @@ ul {
 
 /*}*/
 
-.image__world-map {
-    size: auto;
+.world-map {
+    border: 2px solid red;
+    width: 1000px;
 }
 
 /*-----------4.2 Main---------*/
-/*.main__outer-container {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: center;*/
-
-/*}*/
-
 .country-list {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+li {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.vlaggetjes {
+    display: inline-block;
+    width: 30px;
+}
+
+
+.population {
+    display: flex;
+    flex-direction: column;
+}
+
+/*.country-list {
     position: absolute;
     display: inline-block;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-self: flex-start;
-}
+}*/
 
 /*-----------4.3 Footer---------*/
 

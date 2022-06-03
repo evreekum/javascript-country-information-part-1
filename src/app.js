@@ -24,9 +24,9 @@ function countryList(countries) {
     responseAddedInHtml.innerHTML = countries.map((country) => {
         return `
         <li>
-            <img src="${country.flags.png}" alt="Country Flag">
+            <img src="${country.flags.png}" alt="Country Flag" class="vlaggetjes">
             <h3 class="${changeColorCountry(country.region)}">${country.name}</h3>
-            <p>Has a population of ${country.population} people</p>
+            <p class="population">Has a population of ${country.population} people</p>
         </li>
         `;
     }).join(" ");
